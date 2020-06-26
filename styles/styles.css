@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+}
+#EN {
+    background-Color: blue;
+}
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p span {
+    color:#000;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+p span:hover {
+    color:#02ccba;
+    text-decoration: underline;
+    cursor: pointer;
+}
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
