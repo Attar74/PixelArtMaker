@@ -47,7 +47,6 @@ document.querySelector('#NL').addEventListener('click', function() {
     document.querySelector('#pick').textContent = "Kies een kleur";
     document.querySelector('#Design').textContent = "Ontwerp canvas";
     document.querySelector('#submit').value = "voorleggen";
-    console.log(document.querySelector('#NL'));
     
 });
 document.querySelector('#EN').addEventListener('click', function() {
