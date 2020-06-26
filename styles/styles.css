@@ -6,15 +6,12 @@ body {
 }
 p {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    text-align: center;
 }
 p span {
     color:#000;
     letter-spacing: 3px;
-    font-size: 25px;
+    font-size: 30px;
 }
 p span:hover {
     color:#02ccba;
